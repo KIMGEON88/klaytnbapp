@@ -1,6 +1,6 @@
-pragma solidity 0.5.6;
+pragma solidity >=0.4.23;
 
-import "filename";
+// import "filename";
 
 contract UserStorage{
     mapping (address => uint) userData; // 상태변수
